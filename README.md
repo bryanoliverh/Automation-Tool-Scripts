@@ -1,6 +1,6 @@
 # AutomationTool-Golang
 
-[findAndReplace.go](https://github.com/bryanoliverh/CodePractice-Golang/blob/main/findAndReplace.go)
+1.  [findAndReplace.go](https://github.com/bryanoliverh/AutomationTool-Golang/blob/main/findAndReplace.go)
   -  Time Complexity: O(nm), where n is the length of the input file and m is the length of the search string. Therefore, the overall time complexity of the program is O(nm).
    
      Space Complexity: O(n) 
