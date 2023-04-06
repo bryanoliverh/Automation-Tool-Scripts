@@ -44,6 +44,5 @@
   
   -  The code can be run with
   
-    ```
-     go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
+    ``` go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
     ```
