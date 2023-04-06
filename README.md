@@ -31,7 +31,7 @@
   - If an error occurs during the operation, the tool prints an error message and exits with a non-zero status code. Otherwise, it prints a success message and the path of the output file.
 
 2.  [binarySearch.go](https://github.com/bryanoliverh/AutomationTool-Golang/blob/main/binarySearch.go)
-  -  Time Complexity: O(log n), where where n is the number of elements in the input array/
+  -  Time Complexity: O(log n), where where n is the number of elements in the input array.
    
      Space Complexity: O(1) 
 
