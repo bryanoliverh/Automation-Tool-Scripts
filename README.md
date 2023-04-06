@@ -43,6 +43,6 @@
   -  This is a tool to adjust MySQL Environments dynamically using multiple parameters such as the read only and the innodb_buffer_pool_size, as well as to print the DB server host information into a table.
   
   -  The code can be run with
-  
-    ``` go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
+    ``` 
+        go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
     ```
