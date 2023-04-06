@@ -37,10 +37,12 @@
 
   -  This is a command-line tool written in Go that finds the index of the given list by binary search.
 
-2.  [dynamicMySQLEnvironments.go](https://github.com/bryanoliverh/AutomationTool-Golang/blob/main/dynamicMySQLEnvironments.go)
+3.  [dynamicMySQLEnvironments.go](https://github.com/bryanoliverh/AutomationTool-Golang/blob/main/dynamicMySQLEnvironments.go)
 
 
   -  This is a tool to adjust MySQL Environments dynamically using multiple parameters such as the read only and the innodb_buffer_pool_size, as well as to print the DB server host information into a table.
   
-  -  The code can be run with go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
-
+  -  The code can be run with"
+    ```
+     go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
+    ```
