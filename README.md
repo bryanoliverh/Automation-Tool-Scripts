@@ -30,6 +30,12 @@
 
   - If an error occurs during the operation, the tool prints an error message and exits with a non-zero status code. Otherwise, it prints a success message and the path of the output file.
 
+2.  [binarySearch.go](https://github.com/bryanoliverh/AutomationTool-Golang/blob/main/binarySearch.go)
+  -  Time Complexity: O(log n), where where n is the number of elements in the input array/
+   
+     Space Complexity: O(1) 
+
+  -  This is a command-line tool written in Go that finds the index of the given list by binary search.
 
 2.  [dynamicMySQLEnvironments.go](https://github.com/bryanoliverh/AutomationTool-Golang/blob/main/dynamicMySQLEnvironments.go)
   -  Time Complexity: O(nm), where n is the length of the input file and m is the length of the search string. Therefore, the overall time complexity of the program is O(nm).
