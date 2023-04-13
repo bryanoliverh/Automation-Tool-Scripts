@@ -46,9 +46,31 @@
     ``` 
         go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
     ```
-4.  [TerraformGolang](https://github.com/bryanoliverh/AutomationTool-Golang/tree/main/TerraformGolang)
+4.  [dynamicAuditLogMySQL.go](https://github.com/bryanoliverh/AutomationTool-Golang/blob/main/dynamicAuditLogMySQL.go)
+
+
+  -  This tool will change MySQL global variables to help you manage your MySQL audit logs.
+  -  This script will SSH to DB Servers and change the audit_log_include_accounts to include all of the accounts with the MySQL 'CREATE' privilege.
+  -  Usage:
+        ```
+        To use this tool, you need to provide the following parameters:
+
+        -h: The MySQL server host.
+        -P: The MySQL server port.
+        -u: The MySQL server username.
+        -p: The MySQL server password.
+        -t: The audit log policy to set (optional, default: ALL).
+        ```
+   - Here is an example command to set the audit log policy to NONE for a MySQL server running on localhost:
+    ```
+      go run dynamicAuditLogMySQL -h {yourhost} -u {youruser} -p {yourpassword} -t LOGINS
+    ```
+  
+
+5.  [TerraformGolang](https://github.com/bryanoliverh/AutomationTool-Golang/tree/main/TerraformGolang)
 
 
   -  This is a practice project to explore Terraform using Golang for the main scripting language.
   -  Terraform basics: https://github.com/shuaibiyy/awesome-terraform
+    
     
