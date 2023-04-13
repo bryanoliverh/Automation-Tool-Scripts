@@ -50,5 +50,5 @@
 
 
   -  This is a practice project to explore Terraform using Golang for the main scripting language.
-  
+  -  Terraform basics: https://github.com/shuaibiyy/awesome-terraform#google-cloud
     
