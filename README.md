@@ -46,3 +46,9 @@
     ``` 
         go run dynamicMySQLEnvironments.go -h server1.example.com,server2.example.com,server3.example.com,10.12.12.1
     ```
+4.  [TerraformGolang](https://github.com/bryanoliverh/AutomationTool-Golang/tree/main/TerraformGolang)
+
+
+  -  This is a practice project to explore Terraform using Golang for the main scripting language.
+  
+    
