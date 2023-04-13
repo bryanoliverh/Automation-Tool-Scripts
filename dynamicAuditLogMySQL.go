@@ -58,8 +58,8 @@ func main() {
 	}
 	defer db.Close()
 
-	// Query the user list
-	rows, err := db.Query("SELECT CONCAT(\"'\", USER, \"'@'\", HOST, \"',\") FROM mysql.user WHERE USER NOT IN ('root', 'mysql.sys')")
+	// Query all users that have a CREATE Privilege
+	rows, err := db.Query("SELECT CONCAT(\"'\", USER, \"'@'\", HOST, \"',\") FROM mysql.user WHERE USER NOT IN ('root', 'mysql.sys')   AND Create_priv = 'Y'")
 	if err != nil {
 		log.Fatal(err)
 	}
