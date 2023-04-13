@@ -1,1 +1,1 @@
-*Practice project for Terraform using Golang*
+**Practice project for Terraform using Golang**
