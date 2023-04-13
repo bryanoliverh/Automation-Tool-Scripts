@@ -1,0 +1,2 @@
+prod.tfbackend
+bucket = "your-bucket-name"
