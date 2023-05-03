@@ -70,7 +70,7 @@
 5.  [TerraformGolang](https://github.com/bryanoliverh/AutomationTool-Golang/tree/main/TerraformGolang)
 
 
-  -  This is a practice project to explore Terraform using Golang for the main scripting language.
-  -  Terraform basics: https://github.com/shuaibiyy/awesome-terraform
+  -  This is a practice project to explore Terraform using Golang for the GCP Services such as the Compute Engine, GCP Buckets, and Hypervisor.
+  -  Terraform basics: https://github.com/shuaibiyy/awesome-terraform.
     
     
