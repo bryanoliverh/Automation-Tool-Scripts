@@ -13,3 +13,14 @@ provider "google-beta" {
   project = var.project_id
   region  = var.region
 }
+
+#provider "google" {
+#  project = "my-project-id"
+#  region  = "us-central1"
+#}
+
+resource "my_bucket" "example_bucket" {
+  name     = "example-bucket"
+  location = "US"
+  project  = "my-project-id"
+}
