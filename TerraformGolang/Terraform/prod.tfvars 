@@ -1,3 +1,0 @@
-region        = "us-central1"
-project_id    = "your-project-id"
-function_name = "myfunction"
