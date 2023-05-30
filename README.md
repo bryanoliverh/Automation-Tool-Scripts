@@ -72,5 +72,10 @@
 
   -  This is a practice project to explore Terraform using Golang for the GCP Services such as the Compute Engine, GCP Buckets, and Hypervisor.
   -  Terraform basics: https://github.com/shuaibiyy/awesome-terraform.
+  
+6.  [mysqldumpCommandCreator](https://github.com/bryanoliverh/AutomationTool-Golang/tree/main/mysqldumpCommandCreator)
+
+  -  mysqldump command creator based on the database list inside your db server.
+  -  this tool will automatically generate mysqldump commands based on the .txt file that must be filled with all of the databases in the server.
     
     
