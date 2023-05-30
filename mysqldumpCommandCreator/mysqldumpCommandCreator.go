@@ -13,7 +13,7 @@ func main() {
 	databases := readDatabaseNames("database_list.txt")
 
 	// Exclude certain databases
-	excludedDatabases := []string{"information_schema", "mysql", "performance_schema", "sys", "dba_meta", "mysql_screening_db"}
+	excludedDatabases := []string{"information_schema", "mysql", "performance_schema", "sys"}
 	filteredDatabases := excludeDatabases(databases, excludedDatabases)
 
 	// Generate the mysqldump command
