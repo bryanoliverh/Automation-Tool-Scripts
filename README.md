@@ -77,5 +77,9 @@
 
   -  mysqldump command creator based on the database list inside your db server.
   -  this tool will automatically generate mysqldump commands based on the .txt file that must be filled with all of the databases in the server.
+
+7.  [get_serverid.sh](https://github.com/bryanoliverh/Automation-Tool-Scripts/blob/main/get_serverid.sh)
+
+  -  get the server IP and turn it into a server id for MySQL Configuration
     
     
